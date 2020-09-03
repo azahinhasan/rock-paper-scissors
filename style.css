@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(186, 201, 204);
+}
+.game {
+  position: absolute;
+  top: 0%;
+  left: 30%;
+}
+#winner {
+  color: rgb(91, 149, 163);
+  text-align: center;
+  font-size: 80px;
+}
+#text {
+  color: rgb(91, 149, 163);
+  text-align: center;
+  font-size: 25px;
+}
+
+.hands,
+.options {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.player-hand {
+  transform: rotateY(180deg);
+}
+
+.button {
+  background-color: rgb(91, 149, 163); /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(91, 149, 163);
+}
+
+.button1:hover {
+  background-color: rgb(91, 149, 163);
+  color: white;
+}
